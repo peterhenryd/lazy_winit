@@ -14,7 +14,7 @@ fn main() -> Result<(), EventLoopError> {
     EventLoop::new()?.run_lazy_app::<App, _>("Window Title".to_owned());
 }
 
-struct App;
+struct App { window: Window }
 
 impl lazy_winit::ApplicationInit for App {
     type State = String;
