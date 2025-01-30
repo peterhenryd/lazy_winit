@@ -1,9 +1,12 @@
 [package]
 name = "lazy_winit"
-description = "A simple library for initializing winit application state lazily without dealing with nullables."
-version = "0.1.0"
-edition = "2024"
 authors = ["peterhenryd"]
+description = "A simple library for initializing winit application state lazily without dealing with nullables."
+edition = "2024"
+homepage = "https://github.com/peterhenryd/lazy_winit"
+license-file = "LICENSE"
+repository = "https://github.com/peterhenryd/lazy_winit"
+version = "0.1.0"
 
 [dependencies]
 winit = "0.30.8"
