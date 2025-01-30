@@ -1,0 +1,9 @@
+[package]
+name = "lazy_winit"
+description = "A simple library for initializing winit application state lazily without dealing with nullables."
+version = "0.1.0"
+edition = "2024"
+authors = ["peterhenryd"]
+
+[dependencies]
+winit = "0.30.8"
