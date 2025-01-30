@@ -8,10 +8,10 @@ fn main() -> Result<(), EventLoopError> {
     
     // This will run your application lazy, and will not check if it is initialized before being called. This may be
     // helpful for performance reasons, but may not be desirable on certain platforms.
-    EventLoop::new()?.run_lazy_app_unchecked::<App, _>("Window Title".to_owned());
+    EventLoop::new()?.run_lazy_app_unchecked::<App>("Window Title".to_owned());
         
     // This will run your application lazily, and ensure that is initialized before being called.
-    EventLoop::new()?.run_lazy_app::<App, _>("Window Title".to_owned());
+    EventLoop::new()?.run_lazy_app::<App>("Window Title".to_owned());
 }
 
 struct App { window: Window }
