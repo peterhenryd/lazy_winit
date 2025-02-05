@@ -6,7 +6,7 @@ edition = "2024"
 homepage = "https://github.com/peterhenryd/lazy_winit"
 license-file = "LICENSE"
 repository = "https://github.com/peterhenryd/lazy_winit"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies]
 winit = "0.30.8"
